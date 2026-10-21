@@ -15,13 +15,15 @@ mvn install
 
 ### persistence
 
-- Allez dans le fichier persistence.xml qui se trouve au src/main/resources/META-INF
+- Allez dans le fichier persistence.xml.example qui se trouve au src/main/resources/META-INF
+  et copier le en persistence.xml
 - Mettre dans le fichier le user, password et changer le dbname
   dans la partie properties (le type de base est mariadb)
 
 ### flyway
 
-- Allez dans le fichier flyway.conf qui se trouve au src/main/resources
+- Allez dans le fichier flyway.conf.example qui se trouve au src/main/resources
+  et copier le en flyway.conf
 - Mettre dans le fichier le user, password et changer le dbname
   dans l'url (le type de base est mariadb)
 
