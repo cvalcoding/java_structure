@@ -76,5 +76,5 @@ buildNumber.properties
 .mvn/timing.properties
 # https://github.com/takari/maven-wrapper#usage-without-binary-jar
 .mvn/wrapper/maven-wrapper.jar
-/src/main/resources/flyway.conf
-/src/main/resources/META-INF/persistence.xml
+!/src/main/resources/flyway.conf
+!/src/main/resources/META-INF/persistence.xml
